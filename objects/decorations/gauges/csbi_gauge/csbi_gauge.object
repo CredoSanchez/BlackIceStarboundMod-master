@@ -17,7 +17,7 @@
       "animationCycle" : 0.5,
       "imagePosition" : [-2, -2],
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ],
       "anchors" : [ ]
     }
   ]

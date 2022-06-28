@@ -1,0 +1,11 @@
+{
+  "itemName" : "csbi_slopedblack",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_slopedblack.png",
+  "shortdescription" : "Black Ice Panel One",
+
+  "materialId" : 618,
+  "learnBlueprintsOnPickup" : [ "csbi_slopedblack" ]
+}

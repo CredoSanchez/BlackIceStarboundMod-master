@@ -1,0 +1,26 @@
+{
+  "objectName" : "csbi_craneB",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A very dense metal cable and support railings made to withstand immense levels of stress.",
+  "shortdescription" : "Black Ice Crane B",
+  "race" : "human",
+  
+  "inventoryIcon" : "csbi_craneicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "csbi_crane.png:<color>",
+
+      "imagePosition" : [4, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0,0] ],
+      "anchors" : []
+
+    }
+  ]
+}

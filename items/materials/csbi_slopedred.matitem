@@ -1,0 +1,12 @@
+{
+  "itemName" : "csbi_slopedred",
+  "price" : 10,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_slopedred.png",
+  "shortdescription" : "Black Ice Metal Plating",
+  "description" : "Sturdy metal panelling.",
+
+  "materialId" : 620,
+  "learnBlueprintsOnPickup" : [ "csbi_slopedred" ]
+}

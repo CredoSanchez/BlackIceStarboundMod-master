@@ -1,0 +1,33 @@
+{
+  "objectName" : "csbi_girdervertical",
+  "colonyTags" : ["human"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "A girder segment.",
+  "shortdescription" : "Black Ice Girder",
+  "race" : "human",
+
+  "inventoryIcon" : "csbi_girdervertical.png",
+  "orientations" : [
+    {
+      "image" : "csbi_girdervertical.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    },
+    {
+      "image" : "csbi_girdervertical.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ]
+}

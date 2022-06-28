@@ -1,0 +1,11 @@
+{
+  "itemName" : "csbi_rail",
+  "price" : 0,
+  "category" : "rail",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_rail.png",
+  "description" : "Rope with a metal cable core.",
+  "shortdescription" : "Black Ice Rope",
+
+  "materialId" : 631
+}

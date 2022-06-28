@@ -1,0 +1,41 @@
+{
+  "objectName" : "csbi_sickle",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 75,
+  "description" : "The ADR-7 or sickle is an anti-air railgun designed to down large targets should the need arise.",
+  "shortdescription" : "Black Ice Sickle",
+  "race" : "generic",
+
+  "inventoryIcon" : "csbi_sickleicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "csbi_sickle.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_sicklelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-80, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "bottom" ]
+    },
+    {
+	  "imageLayers" : [ { "image" : "csbi_sickle.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_sicklelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-40, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/bunkerpanel3.ogg",
+  "soundEffectRangeMultiplier" : 1.0
+}

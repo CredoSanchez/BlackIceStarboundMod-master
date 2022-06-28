@@ -1,0 +1,27 @@
+{
+  "projectileName" : "csbi_splash",
+  "image" : "csbi_splash.png",
+  "physics" : "arrownosticky",
+  "animationCycle" : 0.3,
+  "frameNumber" : 5,
+  "timeToLive" : 2.0,
+  "speed" : 0,
+  "damagePoly" : [ [-16, 0], [-10, -10], [0, -16], [10, -10], [16, 0], [10, 10], [0, 16], [-10, 10] ],
+  "animationLoops" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 1,
+      "type" : "csbi_icecloud"
+    },
+    {
+      "action" : "projectile",
+      "type" : "csbi_icepillar",
+      "inheritDamageFactor" : 1,
+	    "angleAdjust" : 0
+    }
+  ],
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "tintrio"
+}

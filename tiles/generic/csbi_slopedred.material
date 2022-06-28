@@ -1,0 +1,23 @@
+{
+  "materialId" : 620,
+  "materialName" : "csbi_slopedred",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "csbi_slopedred",
+
+  "description" : "Sturdy metal panelling.",
+
+  "shortdescription" : "Rusty Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_slopedred.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 505
+  }
+}

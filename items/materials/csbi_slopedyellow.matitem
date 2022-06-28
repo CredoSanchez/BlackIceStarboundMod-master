@@ -1,0 +1,11 @@
+{
+  "itemName" : "csbi_slopedyellow",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_slopedyellow.png",
+  "shortdescription" : "Black Ice Panel Three",
+
+  "materialId" : 622,
+  "learnBlueprintsOnPickup" : [ "csbi_slopedyellow" ]
+}

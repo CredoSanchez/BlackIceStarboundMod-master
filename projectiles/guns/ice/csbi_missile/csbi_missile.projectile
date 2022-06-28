@@ -1,0 +1,49 @@
+{
+  "projectileName" : "csbi_missile",
+  "physics" : "arrownosticky",
+  "image" : "csbi_missile.png",
+  "animationCycle" : 0.3,
+  "animationLoops" : true,
+  "frameNumber" : 4,
+  "timeToLive" : 15.0,
+  "fullbright" : true,
+  "lightColor" : [24, 212, 255],
+  "emitters" : [ "iceheavytrail" ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "csbi_icecloud"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "textured",
+        "image" : "/projectiles/guns/ice/csbi_icebullet/trail.png",
+        "position" : [-3.75, 0],
+        "layer" : "back",
+        "timeToLive" : 0.0,
+        "destructionTime" : 0.1,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "csbi_liquid",
+      "time" : 0.5,
+      "repeat" : true
+    }
+  ],
+  "power" : 10.0,
+  "speed" : 90.0,
+
+  "damageKind" : "default",
+  "persistentAudio" : "/sfx/tech/tech_rocketboots.ogg"
+}

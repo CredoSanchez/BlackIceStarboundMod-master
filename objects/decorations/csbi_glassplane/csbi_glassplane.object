@@ -1,0 +1,33 @@
+{
+  "objectName" : "csbi_glassplane",
+  "colonyTags" : ["human"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "A glass smooth panel.",
+  "shortdescription" : "Black Ice Glass Plane",
+  "race" : "human",
+  
+  "inventoryIcon" : "csbi_glassplaneicon.png",
+  "orientations" : [
+    {
+      "image" : "csbi_glassplane.png:<color>",
+      "imagePosition" : [-28, -16],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0,0] ],
+      "anchors" : []
+    },
+    {
+      "image" : "csbi_glassplane.png:<color>",
+      "imagePosition" : [-28, -16],
+
+      "direction" : "right",
+
+      "spaces" : [ [0,0] ],
+      "anchors" : []
+    }
+  ]
+}

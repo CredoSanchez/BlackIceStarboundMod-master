@@ -1,0 +1,18 @@
+{
+  "projectileName" : "csbi_icecloud",
+  "image" : "csbi_icecloud.png",
+  "physics" : "gas",
+  "bounces" : -1,
+  "animationCycle" : 1.05,
+  "speed" : 0,
+  "frameNumber" : 8,
+  "emitters" : [ "csbi_largeicecloud" ],
+  "lightColor" : [24, 212, 255],
+  "timeToLive" : 1,
+  "piercing" : true,
+  "power" : 10.0,
+  "fullbright" : true,
+  "damageKind" : "tintrio",
+  "damagePoly" : [ [-14, 0], [-10, -10], [0, -14], [10, -10], [14, 0], [10, 10], [0, 14], [-10, 10] ],
+  "statusEffects" : ["csbi_tintriofreeze"]
+}

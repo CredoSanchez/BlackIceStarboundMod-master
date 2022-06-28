@@ -1,0 +1,11 @@
+{
+  "itemName" : "csbi_beamH",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_beamH.png",
+  "shortdescription" : "Black Ice Beam",
+  "description" : "A strong metal beam.",
+
+  "materialId" : 612
+}

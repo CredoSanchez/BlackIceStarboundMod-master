@@ -1,0 +1,21 @@
+{
+  "materialId" : 616,
+  "materialName" : "csbi_girder",
+  "particleColor" : [171, 74, 40, 255],
+  "itemDrop" : "csbi_girder",
+  "description" : "A strong looking metal girder.",
+  "shortdescription" : "Black Ice Girder",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/scb-pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_girder.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 499
+  }
+}

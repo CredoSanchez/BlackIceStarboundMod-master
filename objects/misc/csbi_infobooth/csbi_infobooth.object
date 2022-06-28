@@ -1,0 +1,76 @@
+{
+  "objectName" : "csbi_infobooth",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A good source of information.",
+  "shortdescription" : "Black Ice Info Booth",
+  "race" : "human",
+  "printable" : false,
+  "price" : 75,
+ 
+  "apexDescription" : "If I'm ever lost, I can always ask the info booth lady for help.",
+  "avianDescription" : "Mami, the info booth lady, is super helpful.",
+  "floranDescription" : "Despite being a ssslimy Hylotl, info booth lady is nice and helpful.",
+  "glitchDescription" : "Appreciative. Mami at the info booth desk is lovely and helpful.",
+  "humanDescription" : "The info booth lady always has a useful tip.",
+  "hylotlDescription" : "Mami at the info desk helped me endlessly when I was a new and confused student.",
+  "novakidDescription" : "Whenever I'm in need o' some friendly help, I come here.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "csbi_infobooth.png:idle", "fullbright" : true }, { "image" : "csbi_infoboothlit.png:idle" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 13,
+      "animationCycle" : 3.2,
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [2, 2], [3, 2], [4, 2],
+        [2, 3], [3, 3], [4, 3]
+      ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "csbi_infobooth.png:idle", "fullbright" : true }, { "image" : "csbi_infoboothlit.png:idle" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 13,
+      "animationCycle" : 3.2,
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [1, 2], [2, 2], [3, 2],
+        [1, 3], [2, 3], [3, 3]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/hubbub.ogg",
+
+  "animation" : "csbi_infobooth.animation",
+  "animationPosition" : [0, 0],
+  "animationParts" : {
+    "booth" : "csbi_infobooth.png",
+    "boothlit" : "csbi_infoboothlit.png"
+  },
+  "forceFinishAnimationsInInit" : false,
+
+  "scripts" : ["csbi_infobooth.lua"],
+  "scriptDelta" : 10,
+
+  "detectArea" : [ [-8, 0], [14, 6] ],
+
+  "mouthPosition" : [-1.25, 0],
+  "chatOptions" : [
+    "Welcome to Black Ice where we excell in bringing you the latest in cryogenic technology!",
+    "We also sell decor and materials for private use.",
+    "Don't worry about the penguins, they're here to help.",
+    "Did you know here at Black Ice our cryogenic liquid is actually super cooled ferrofluid."
+  ]
+}

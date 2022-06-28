@@ -1,0 +1,24 @@
+{
+  "kind" : "csbi_spark",
+  "definition" : {
+    "type" : "ember",
+    "size" : 1,
+    "color" : [96, 19, 0, 13],
+  	"light" : [24, 212, 255],
+    "position" : [0, 0],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.5,
+	  "initialVelocity" : [0.0, 0.0],
+	  "finalVelocity" : [0.0, -50.0],
+	  "approach" : [0, 20],
+    "fade" : 0.9,
+    "layer" : "middle",
+    "fullbright" : true,
+    "timeToLive" : 2,
+    "variance" : {
+      "initialVelocity" : [5.0, 10.0],
+      "position" : [0, 0]
+    },
+	"collidesLiquid" : false
+  }
+}

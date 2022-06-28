@@ -1,0 +1,25 @@
+{
+  "objectName" : "csbi_gauge",
+  "colonyTags" : ["mechanical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "Pressure? Voltage? Who knows.",
+  "shortdescription" : "Black Ice Gauge",
+  "race" : "generic",
+
+  "inventoryIcon" : "csbi_gaugeicon.png",
+  "orientations" : [
+
+    {
+      "image" : "csbi_gauge.png:<color>.<frame>",
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "imagePosition" : [-2, -2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ]
+
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "csbi_antenna1",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 75,
+  "description" : "An antenna for transmitting signals and aviation markings.",
+  "shortdescription" : "Black Ice Antenna",
+  "race" : "generic",
+
+  "inventoryIcon" : "csbi_servericon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "csbi_server.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_serverlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "bottom" ]
+    },
+    {
+	  "imageLayers" : [ { "image" : "csbi_server.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_serverlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/bunkerpanel3.ogg",
+  "soundEffectRangeMultiplier" : 1.0
+}

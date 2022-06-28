@@ -1,0 +1,46 @@
+{
+  "objectName" : "csbi_bench1",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A sleek bench.",
+  "shortdescription" : "Black Ice Bench",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 190,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "csbi_benchicon.png",
+  "orientations" : [
+    {
+      "image" : "csbi_bench.png:<color>",
+      "imagePosition" : [-14, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-13, 22], // Right
+        [5, 22] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "csbi_bench.png:<color>",
+      "imagePosition" : [-14, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-5, 22], // Left
+        [13, 22] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

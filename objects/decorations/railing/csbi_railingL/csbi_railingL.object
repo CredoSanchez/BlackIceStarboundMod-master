@@ -1,0 +1,27 @@
+{
+  "objectName" : "csbi_railingL",
+  "colonyTags" : ["generic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A fence fashioned out of metal.",
+  "shortdescription" : "Black Ice Railing",
+  "race" : "human",
+
+  "inventoryIcon" : "csbi_railingLicon.png",
+  "orientations" : [
+    {
+      "image" : "csbi_railingL.png:<color>",
+	    "renderLayer" : "player+1",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

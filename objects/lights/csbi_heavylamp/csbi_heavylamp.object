@@ -1,0 +1,42 @@
+{
+  "objectName" : "csbi_heavylamp",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 75,
+  "description" : "A heavy blue lamp for utility purposes.",
+  "shortdescription" : "Black Ice Lamp",
+  "race" : "generic",
+  "lightColor" : [24, 212, 255],
+
+  "inventoryIcon" : "csbi_heavylampicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "csbi_heavylamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_heavylamplit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "bottom" ]
+    },
+    {
+	  "imageLayers" : [ { "image" : "csbi_heavylamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_heavylamplit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/bunkerpanel3.ogg",
+  "soundEffectRangeMultiplier" : 1.0
+}

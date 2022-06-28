@@ -1,0 +1,28 @@
+{
+  "projectileName" : "csbi_liquid",
+  "image" : "csbi_liquid.png",
+  "physics" : "arrownosticky",
+  "animationCycle" : 1,
+  "frameNumber" : 5,
+  "timeToLive" : 3.0,
+  "damageKindImage" : "csbi_liquidicon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/blocks/water_getout.ogg" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "csbi_splash",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 1,
+      "inheritSpeedFactor" : 0.9,
+      "angleAdjust" : -5
+    }
+  ],
+  "power" : 0.0,
+  "speed" : 25,
+  "damageKind" : "tintrio"
+
+}

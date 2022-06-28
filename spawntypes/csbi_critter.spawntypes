@@ -1,0 +1,17 @@
+[
+  {
+    "name" : "csbi_tintrillo",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.02,
+    "monsterType" : "csbi_tintrillo",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  }
+]

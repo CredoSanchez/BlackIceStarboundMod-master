@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/tintrio",
+		"value": {
+			"resistanceStat" : "tintrioresistance",
+			"damageNumberParticles" : {
+				"hit" : "tintriodamagenumber",
+				"stronghit" : "tintriodamagenumberstrong",
+				"weakhit" : "tintriodamagenumberweak",
+				"shieldhit" : "tintriodamagenumber",
+				"kill" : "tintriodamagenumber"
+			}
+		}
+	}
+
+]

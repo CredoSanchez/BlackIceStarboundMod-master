@@ -1,0 +1,11 @@
+{
+  "itemName" : "csbi_pipe",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_pipe.png",
+  "shortdescription" : "Black Ice pipe",
+  "description" : "A sturdy pipe.",
+
+  "materialId" : 624
+}

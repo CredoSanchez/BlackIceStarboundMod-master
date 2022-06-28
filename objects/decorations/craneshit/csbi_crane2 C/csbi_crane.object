@@ -1,0 +1,44 @@
+{
+  "objectName" : "csbi_craneC",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 75,
+  "description" : "A heavy crane pully.",
+  "shortdescription" : "Black Ice Pully",
+  "race" : "generic",
+  "lightColor" : [0, 28, 48],
+
+  "inventoryIcon" : "csbi_craneicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "csbi_crane.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_cranelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+      "lightPosition" : [2, 3],
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ ]
+    },
+    {
+	  "imageLayers" : [ { "image" : "csbi_crane.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_cranelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+      "lightPosition" : [3, 3],
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/bunkerpanel3.ogg",
+  "soundEffectRangeMultiplier" : 1.0
+}

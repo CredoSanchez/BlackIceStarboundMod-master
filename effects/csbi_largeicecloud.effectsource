@@ -1,0 +1,29 @@
+{
+  "kind" : "csbi_largeicecloud",
+  "definition" : {
+    "duration" : 0.04,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "csbi_largeicecloud1", "csbi_largeicecloud3", "csbi_largeicecloud2", "csbi_largeicecloud1", "csbi_largeicecloud3", "csbi_largeicecloud2", "csbi_largeicecloud1", "csbi_largeicecloud3", "csbi_largeicecloud2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "csbi_largeicecloud1", "csbi_largeicecloud3", "csbi_largeicecloud2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "csbi_largeicecloud4", "csbi_largeicecloud4", "csbi_largeicecloud4", "csbi_largeicecloud4", "csbi_largeicecloud4", "csbi_largeicecloud4" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

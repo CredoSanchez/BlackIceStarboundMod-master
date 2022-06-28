@@ -1,0 +1,42 @@
+{
+  "objectName" : "csbi_chair",
+  "colonyTags" : ["human"],
+  "rarity" : "Common",
+  "description" : "A sleek chair.",
+  "shortdescription" : "Black Ice Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 105,
+  "printable" : false,
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "csbi_chair.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "sitPosition" : [-6, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "csbi_chair.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "sitPosition" : [10, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}

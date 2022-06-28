@@ -1,0 +1,26 @@
+{
+  "materialId" : 612,
+  "materialName" : "csbi_beamH",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "csbi_beamH", 
+  "shortdescription" : "Black Ice Beam",
+  
+  "description" : "A strong metal beam.",
+  "glitchDescription" : "Observation. This metal beam looks very sturdy.",
+  "floranDescription" : "Long beamsss made of metal.",
+  "novakidDescription" : "Just a big metal beam.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_beamH.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}

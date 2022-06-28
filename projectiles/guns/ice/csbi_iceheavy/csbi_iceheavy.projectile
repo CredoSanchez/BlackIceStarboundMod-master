@@ -1,0 +1,45 @@
+{
+  "projectileName" : "csbi_iceheavy",
+  "physics" : "laser",
+  "bounces" : 0,
+  "image" : "csbi_iceheavy.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 180,
+  "supportsProcessing" : true,
+  "emitters" : [ "iceheavytrail" ],
+  "actionOnReap" : [
+	  {
+      "action" : "projectile",
+      "type" : "csbi_icecloud",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : 1
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "textured",
+        "image" : "/projectiles/guns/ice/csbi_iceheavy/trail.png",
+        "position" : [-1.5, 0],
+        "layer" : "back",
+        "timeToLive" : 0.0,
+        "destructionTime" : 0.3,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    }
+  ],
+  "statusEffects" : [
+    {"effect": "frostslow", "duration" : 1.5}
+  ],
+  "lightColor" : [24, 212, 255],
+  "fullbright" : true,
+  "damageKind" : "default"
+}

@@ -1,0 +1,26 @@
+{
+  "materialId" : 619,
+  "materialName" : "csbi_slopedgrate",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "csbi_slopedgrate",
+
+  "description" : "Black Ice Grating.",
+  "glitchDescription" : "Eager. I am sure with some elbow grease, this metal panelling could be cleared up.",
+  "floranDescription" : "Floran wantsss to make ssspears out of metal.",
+  "novakidDescription" : "Some 'ol metal panels.",
+
+  "shortdescription" : "Black Ice Grating",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_slopedgrate.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 500
+  }
+}

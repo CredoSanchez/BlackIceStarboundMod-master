@@ -1,0 +1,11 @@
+{
+  "itemName" : "csbi_cable",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_cable.png",
+  "shortdescription" : "Black Ice Cable",
+  "description" : "Thick electrical cables.",
+
+  "materialId" : 630
+}

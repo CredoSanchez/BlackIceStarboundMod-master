@@ -1,0 +1,26 @@
+{
+  "materialId" : 614,
+  "materialName" : "csbi_floor1",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "csbi_floor1", 
+  "shortdescription" : "Black Ice Floor",
+  
+  "description" : "A metal panel often used to cover the floor.",
+  "glitchDescription" : "Informed. Such panels often serves as floorboards.",
+  "floranDescription" : "Floran thinksss thiss panel iss for walking on.",
+  "novakidDescription" : "A metal floorboard... I prefer the sound of boots on wood.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_floor1.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 507
+  }
+}

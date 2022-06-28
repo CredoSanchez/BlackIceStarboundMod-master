@@ -1,0 +1,23 @@
+{
+  "materialId" : 628,
+  "materialName" : "csbi_sandbags",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "csbi_sandbags", 
+  "shortdescription" : "Black Ice Sandbags",
+  
+  "description" : "A wall of sand for absorbing impacts.",
+
+  "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_sandbags.png",
+    "variants" : 7,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}

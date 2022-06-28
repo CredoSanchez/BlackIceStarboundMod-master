@@ -1,0 +1,40 @@
+{
+  "projectileName" : "csbi_icebullet",
+  "physics" : "laser",
+  "image" : "csbi_icebullet.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "lightColor" : [24, 212, 255],
+  "actionOnReap" : [
+	{
+      "action" : "projectile",
+      "type" : "csbi_icecloud",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 1
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "textured",
+        "image" : "/projectiles/guns/ice/csbi_icebullet/trail.png",
+        "position" : [-1.75, 0],
+        "layer" : "back",
+        "timeToLive" : 0.0,
+        "destructionTime" : 0.1,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    }
+  ],
+  "power" : 25.0,
+  "speed" : 180,
+  "supportsProcessing" : true,
+  "fullbright" : true,
+  "damageKind" : "default"
+}

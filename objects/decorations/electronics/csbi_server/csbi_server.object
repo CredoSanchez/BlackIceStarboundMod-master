@@ -1,0 +1,46 @@
+{
+  "objectName" : "csbi_server",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 75,
+  "description" : "A rack filled with data servers.",
+  "shortdescription" : "Black Ice Server",
+  "race" : "generic",
+  "lightColor" : [0, 28, 48],
+
+  "inventoryIcon" : "csbi_servericon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "csbi_server.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_serverlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "lightPosition" : [2, 3],
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+	  "imageLayers" : [ { "image" : "csbi_server.png:<color>.<frame>", "fullbright" : true }, { "image" : "csbi_serverlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+      "lightPosition" : [3, 3],
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/bunkerpanel3.ogg",
+  "soundEffectRangeMultiplier" : 1.0
+}

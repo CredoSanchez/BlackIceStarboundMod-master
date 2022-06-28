@@ -1,0 +1,13 @@
+{
+  "author" : "cs",
+  "description" : "Black Ice is a weapons manufacturing corporation with a focus on crygenic munitions and equipment.\n\nAll brand items and objects can be found at the dedicated vendor which can be crafted from the tier three inventors table.",
+  "friendlyName" : "Black Ice",
+  "includes" : [],
+  "link" : "steam://url/CommunityFilePage/2331991026",
+  "name" : "Black Ice",
+  "priority" : -1,
+  "requires" : [],
+  "steamContentId" : "2331991026",
+  "tags" : "Crafting and Building|Weapons|Furniture and Objects|Vehicles and Mounts",
+  "version" : "2"
+}

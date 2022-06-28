@@ -1,0 +1,11 @@
+{
+  "itemName" : "csbi_asphalt",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_asphalt.png",
+  "shortdescription" : "Black Ice Asphalt",
+  "description" : "Rough asphalt for easy vehicle movement.",
+
+  "materialId" : 629
+}

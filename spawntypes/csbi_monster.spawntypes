@@ -1,0 +1,19 @@
+[
+  {
+    "name" : "csbi_tintrocoat",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.014,
+    "monsterType" : [
+      [1, "csbi_tintrocoat"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+]

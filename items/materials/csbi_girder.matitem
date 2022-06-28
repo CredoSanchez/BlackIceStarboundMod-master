@@ -1,0 +1,16 @@
+{
+  "itemName" : "csbi_girder",
+  "price" : 10,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_girder.png",
+  "description" : "A strong looking metal girder.",
+  "shortdescription" : "Black Ice Girder",
+  "glitchDescription" : "Impressed. This reinforced metal girder is very strong.",
+  "floranDescription" : "Cold metal girderss.",
+  "novakidDescription" : "A strong lookin' metal girder.",
+
+  "materialId" : 616,
+  "learnBlueprintsOnPickup" : [ "csbi_girder" ]
+}
+

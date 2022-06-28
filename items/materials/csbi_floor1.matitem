@@ -1,0 +1,13 @@
+{
+  "itemName" : "csbi_floor1",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_floor1.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  
+  "shortdescription" : "Black Ice Floor",
+  "description" : "A cold metal floor.",
+
+  "materialId" : 614
+}

@@ -1,0 +1,58 @@
+{
+  "itemName" : "csbi_txshield",
+  "fixedLevel" : false,
+  "price" : 5000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "shield",
+  "description" : "Rushdown your enemies with this light shield.",
+  "shortdescription" : "San Esol",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "images/csbi_txshield.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "images/csbi_txshield.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "forceWalk" : false,
+  "baseShieldHealth" : 38,
+  "cooldownTime" : 0.50,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "knockback" : 10,
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -45,
+      "shieldRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}

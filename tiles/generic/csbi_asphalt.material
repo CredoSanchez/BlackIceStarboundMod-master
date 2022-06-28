@@ -1,0 +1,23 @@
+{
+  "materialId" : 629,
+  "materialName" : "csbi_asphalt",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "csbi_asphalt", 
+  "shortdescription" : "Black Ice Asphalt",
+  
+  "description" : "Rough asphalt for easy vehicle movement.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_asphalt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}

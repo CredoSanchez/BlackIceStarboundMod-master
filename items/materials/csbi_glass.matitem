@@ -1,0 +1,15 @@
+{
+  "itemName" : "csbi_glass",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_glass.png",
+  "shortdescription" : "Black Ice Glass",
+  "description" : "Strong Glass.",
+  "glitchdescription" : "Worried. This metal surface looks very jagged and rusty.",
+  "florandescription" : "Metal sssso russty, Floran wouldn't even ussse it.",
+  "novakiddescription" : "This metal panel is just a buncha rusted scrap.",
+
+  "materialId" : 617,
+  "learnBlueprintsOnPickup" : [ "csbi_glass" ]
+}

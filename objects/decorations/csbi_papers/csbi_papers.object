@@ -1,0 +1,25 @@
+{
+  "objectName" : "csbi_papers",
+  "colonyTags" : ["office"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "shortdescription" : "Black Ice Papers",
+  "description" : "Lots of... really bad ideas here.",
+  "race" : "generic",
+
+  "inventoryIcon" : "csbi_papersicon.png",
+  "orientations" : [
+    {
+      "image" : "csbi_papers.png:<color>",
+      "imagePosition" : [-24, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

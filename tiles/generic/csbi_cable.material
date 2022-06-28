@@ -1,0 +1,21 @@
+{
+  "materialId" : 630,
+  "materialName" : "csbi_cable",
+  "particleColor" : [111, 75, 58, 255],
+  "itemDrop" : "csbi_cable",
+  "shortdescription" : "Black Ice Cable",
+  "description" : "Thick electrical cables.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/scb-pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_cable.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}

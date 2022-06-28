@@ -1,0 +1,23 @@
+{
+  "materialId" : 625,
+  "materialName" : "csbi_slopedsolar",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "csbi_slopedsolar",
+
+  "description" : "Sleek solar panels.",
+
+  "shortdescription" : "Black Ice Solar",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_slopedsolar.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 624,
+  "materialName" : "csbi_pipe",
+  "particleColor" : [111, 75, 58, 255],
+  "itemDrop" : "csbi_pipe",
+  "shortdescription" : "Black Ice Pipe",
+  "description" : "Heavy pipes most likely for transporting ferrofluid.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/scb-pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_pipe.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}

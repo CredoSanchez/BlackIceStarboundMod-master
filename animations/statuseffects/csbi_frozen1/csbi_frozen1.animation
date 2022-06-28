@@ -1,0 +1,9 @@
+{
+  "frames" : "csbi_frozen1.png",
+  "variants" : 1,
+  "fullbright" : true,
+  "frameNumber" : 4,
+  "loops" : 20.0,
+  "animationCycle" : 0.8,
+  "offset" : [0, 0]
+}

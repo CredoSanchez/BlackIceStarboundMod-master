@@ -1,0 +1,49 @@
+{
+  "projectileName" : "csbi_spike",
+  "physics" : "underwaterarrow",
+  "damageKindImage" : "icon.png",
+  "image" : "csbi_spike.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "flippable" : true,
+  "emitters" : [ "flamesfast" ],
+  "piercing" : false,
+  "power" : 10,
+  "speed" : 125,
+  "timeToLive" : 3,
+  "supportsProcessing" : true,
+  "damageKind" : "default",
+  "hydrophobic" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/fireexplosionknockback.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "csbi_icecloud",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 35
+    },
+	{
+      "action" : "projectile",
+      "type" : "csbi_icecloud",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 65
+    },
+	{
+      "action" : "projectile",
+      "type" : "csbi_icecloud",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 95
+    }
+  ],
+  "actionOnCollide" : [
+    {
+      "action" : "spark"
+    }
+  ]
+}

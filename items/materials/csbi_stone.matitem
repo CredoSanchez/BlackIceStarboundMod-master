@@ -1,0 +1,12 @@
+{
+  "itemName" : "csbi_stone",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_stone.png",
+  "description" : "Jagged rocks covered in what appears to be moss.",
+  "shortdescription" : "Rock",
+
+  "materialId" : 627,
+  "learnBlueprintsOnPickup" : [ "csbi_stone" ]
+}

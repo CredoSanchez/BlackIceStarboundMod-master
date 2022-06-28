@@ -1,0 +1,46 @@
+{
+  "objectName" : "csbi_lab",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 75,
+  "description" : "A laboratory of sorts.",
+  "shortdescription" : "Black Ice Lab",
+  "race" : "generic",
+  "lightColor" : [0, 28, 48],
+
+  "inventoryIcon" : "csbi_labicon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "csbi_lab.png:<color>", "fullbright" : true }, { "image" : "csbi_lablit.png:<color>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "lightPosition" : [2, 3],
+
+      "spaces" : [ [0,0] ],
+	  "renderLayer" : "platform-1",
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : []
+    },
+    {
+	  "imageLayers" : [ { "image" : "csbi_lab.png:<color>", "fullbright" : true }, { "image" : "csbi_lablit.png:<color>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.6,
+      "lightPosition" : [3, 3],
+
+      "spaces" : [ [0,0] ],
+	  "renderLayer" : "platform-1",
+      "direction" : "right",
+      "anchors" : []
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/bunkerpanel3.ogg",
+  "soundEffectRangeMultiplier" : 1.0
+}

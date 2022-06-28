@@ -1,0 +1,21 @@
+{
+  "particleEmitters" : {
+    "flames" : {
+      "enabled" : true,
+      "emissionRate" : 8.0,
+      "particles" : [
+        { "particle" : "csbi_largeicecloud1" },
+		{ "particle" : "csbi_largeicecloud2" },
+		{ "particle" : "csbi_largeicecloud3" },
+		{ "particle" : "csbi_largeicecloud4" }
+      ]
+    }
+  },
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [24, 212, 255]
+    }
+  }
+}

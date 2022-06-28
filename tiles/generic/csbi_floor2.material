@@ -1,0 +1,23 @@
+{
+  "materialId" : 615,
+  "materialName" : "csbi_floor2",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "csbi_floor2", 
+  "shortdescription" : "Black Ice Metal",
+  
+  "description" : "A metal panel.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_floor2.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 506
+  }
+}

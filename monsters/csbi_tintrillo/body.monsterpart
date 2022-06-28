@@ -1,0 +1,9 @@
+{
+  "name" : "csbi_tintrillo",
+  "category" : "csbi_tintrillo",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

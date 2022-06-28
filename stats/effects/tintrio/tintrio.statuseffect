@@ -1,0 +1,25 @@
+{
+  "name" : "csbi_tintriofreeze",
+  "blockingStat" : "biomecoldImmunity",
+
+  "effectConfig" : {
+	"directive" : "fade=08b3de=0.25",
+	"deathDirective" : "fade=08b3de=1.0?border=2;08b3de80;00000000",
+	"damageKind" : "tintrio",
+	"projectileType" : "csbi_liquid",
+	"deathProjectileType" : "csbi_liquid",
+    "minMaxHealth" : 5,
+    "healthDamageFactor" : 1.0,
+    "jumpDistance" : 5
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "tintrio.lua"
+  ],
+
+  "animationConfig" : "tintrio.animation",
+
+  "label" : "Tintrio Freeze",
+  "icon" : "/interface/statuses/tintrio.png"
+}

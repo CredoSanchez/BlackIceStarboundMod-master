@@ -1,0 +1,10 @@
+{
+  "name" : "csbi_tintrocoat",
+  "category" : "csbi_tintrocoat",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "csbi_tintrocoat.png",
+    "bodynobright" : "csbi_tintrocoatnobright.png"
+  }
+}

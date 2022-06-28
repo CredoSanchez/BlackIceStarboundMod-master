@@ -1,0 +1,13 @@
+{
+  "itemName" : "csbi_floor2",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_floor2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  
+  "shortdescription" : "Black Ice Metal",
+  "description" : "Cold corrugated metal.",
+
+  "materialId" : 615
+}

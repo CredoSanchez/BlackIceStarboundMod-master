@@ -1,0 +1,24 @@
+{
+  "objectName" : "csbi_pottedtree",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "A nice lobby plant.",
+  "shortdescription" : "Black Ice Lobby Plant.",
+  "race" : "generic",
+
+  "inventoryIcon" : "csbi_pottedtreeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "csbi_pottedtree.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

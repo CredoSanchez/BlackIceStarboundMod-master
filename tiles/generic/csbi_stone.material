@@ -1,0 +1,23 @@
+{
+  "materialId" : 627,
+  "materialName" : "csbi_stone",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "csbi_stone", 
+  "shortdescription" : "Rock",
+  
+  "description" : "Jagged rocks covered in what appears to be moss.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_stone.png",
+    "variants" : 15,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1999
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "csbi_lockers",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "Some very sturdy lockers.",
+  "shortdescription" : "Black Ice Lockers",
+  "race" : "generic",
+  "price" : 75,
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "csbi_lockersicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "csbi_lockers.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metaldoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metaldoor_open.ogg" ],
+  "slotCount" : 48,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

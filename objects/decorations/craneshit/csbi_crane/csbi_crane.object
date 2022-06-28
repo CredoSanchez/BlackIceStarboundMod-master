@@ -1,0 +1,34 @@
+{
+  "objectName" : "csbi_crane",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A large crane hook.",
+  "shortdescription" : "Black Ice Crane Hook",
+  "race" : "human",
+
+  "apexDescription" : "This sign has a large mech vehicle printed on it.",
+  "avianDescription" : "This sign displays a large mech suit.",
+  "floranDescription" : "There isss a suit of mech armour on this sssign.",
+  "glitchDescription" : "Observant. This sign indicates a work station for mech assembly.",
+  "humanDescription" : "This round sign has a large mech suit on it.",
+  "hylotlDescription" : "A coloured sign, with an image of a mech suit.",
+  "novakidDescription" : "A sign with a big 'ol mech suit printed on it.",
+  
+  "inventoryIcon" : "csbi_craneicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "csbi_crane.png:<color>",
+
+      "imagePosition" : [0, 1],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0,0] ],
+      "anchors" : []
+
+    }
+  ]
+}

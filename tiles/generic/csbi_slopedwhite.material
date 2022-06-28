@@ -1,0 +1,23 @@
+{
+  "materialId" : 621,
+  "materialName" : "csbi_slopedwhite",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "csbi_slopedwhite",
+
+  "description" : "Black Ice Panel.",
+
+  "shortdescription" : "Black Ice Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_slopedstone.png",
+    "variants" : 9,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 503
+  }
+}

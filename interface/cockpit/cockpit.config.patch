@@ -1,0 +1,25 @@
+[
+    [
+      {
+        "op": "add",
+        "path": "/visitableTypeDescription/csbi_blacktundra",
+        "value" : [
+          "^black;Black Tundra^white; Cold mountain ranges coated in snow and moss."
+          ]
+      },
+      {
+        "op": "add",
+        "path": "/planetTypeNames/csbi_blacktundra",
+        "value": "Black Tundra"
+      },
+      {
+        "op": "add",
+        "path": "/planetTypeColors/csbi_blacktundra",
+        "value": [
+          100,
+          100,
+          100
+        ]
+      }
+      ]
+]

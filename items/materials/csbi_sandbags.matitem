@@ -1,0 +1,11 @@
+{
+  "itemName" : "csbi_sandbags",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_sandbags.png",
+  "shortdescription" : "Black Ice Sandbags",
+  "description" : "A wall of sand for absorbing impacts.",
+
+  "materialId" : 628
+}

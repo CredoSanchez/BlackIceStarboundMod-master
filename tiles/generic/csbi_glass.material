@@ -1,0 +1,26 @@
+{
+  "materialId" : 617,
+  "materialName" : "csbi_glass",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "csbi_glass",
+
+  "description" : "Black Ice Glass.",
+  "glitchDescription" : "Eager. I am sure with some elbow grease, this metal panelling could be cleared up.",
+  "floranDescription" : "Floran wantsss to make ssspears out of metal.",
+  "novakidDescription" : "Some 'ol metal panels.",
+
+  "shortdescription" : "Black Ice Glass",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_glass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 470
+  }
+}

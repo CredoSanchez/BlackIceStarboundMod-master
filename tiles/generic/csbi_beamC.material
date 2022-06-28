@@ -1,0 +1,26 @@
+{
+  "materialId" : 611,
+  "materialName" : "csbi_beamC",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "csbi_beamC", 
+  "shortdescription" : "Black Ice Connector",
+  
+  "description" : "A sturdy beam connector piece.",
+  "glitchDescription" : "Observation. This connector is a structural necessity.",
+  "floranDescription" : "Small block connectsss beamss.",
+  "novakidDescription" : "It's just a beam connector piece.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_beamC.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 501
+  }
+}

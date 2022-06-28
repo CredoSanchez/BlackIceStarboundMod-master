@@ -1,0 +1,12 @@
+{
+  "itemName" : "csbi_slopedsolar",
+  "price" : 10,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "csbi_slopedsolar.png",
+  "shortdescription" : "Black Ice Solar",
+  "description" : "Sleek solar panels.",
+
+  "materialId" : 625,
+  "learnBlueprintsOnPickup" : [ "csbi_slopedsolar" ]
+}

@@ -1,0 +1,57 @@
+{
+  "objectName" : "csbi_redvendor",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Essential",
+  "category" : "other",
+  "description" : "An ominous guy for a rather inconspicuous business.",
+  "shortdescription" : "El Vendedor",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 10000,
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/csbi_altmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "",
+        "subtitle" : ""
+      }
+    },
+    "buyFactor" : 1.5,
+    "sellFactor" : 0.5,
+    "items" : [
+      { "item" : { "name" : "csbi_juarez" } },
+      { "item" : { "name" : "csbi_texhoma" } },
+      { "item" : { "name" : "csbi_texarkana" } },
+      { "item" : { "name" : "csbi_laredo" } }
+    ]
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "csbi_redvendor.png:<color>", "fullbright" : true }, { "image" : "csbi_redvendorlit.png:<color>" } ],
+      "direction" : "left",
+	  "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.2,
+
+	  "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "csbi_redvendor.png:<color>", "fullbright" : true }, { "image" : "csbi_redvendorlit.png:<color>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.2,
+
+	  "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

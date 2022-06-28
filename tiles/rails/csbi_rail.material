@@ -1,0 +1,22 @@
+{
+  "materialId" : 631,
+  "materialName" : "csbi_rail",
+  "collisionKind" : "none",
+  "foregroundOnly" : true,
+  "itemDrop" : "csbi_rail",
+  "shortdescription" : "Black Ice Rope",
+  "description" : "Rope with a metal cable core.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "category": "supports",
+  "health" : 3,
+
+  "renderTemplate" : "/tiles/railtemplate.config",
+  "renderParameters" : {
+    "texture" : "csbi_rail.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "zLevel" : 0
+  }
+}

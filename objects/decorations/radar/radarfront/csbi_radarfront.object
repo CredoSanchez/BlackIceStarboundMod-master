@@ -1,0 +1,27 @@
+{
+  "objectName" : "csbi_radarfront",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A insulated radar dish.",
+  "shortdescription" : "Black Ice Radar",
+  "race" : "human",
+  
+  "inventoryIcon" : "csbi_radarfronticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "csbi_radarfront.png:<color>",
+
+      "imagePosition" : [-8, -8],
+      "renderLayer" : "foregroundtile+1",
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0,0] ],
+      "anchors" : []
+
+    }
+  ]
+}

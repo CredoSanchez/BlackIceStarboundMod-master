@@ -1,6 +1,6 @@
 {
-  "author" : "cs",
-  "description" : "Black Ice is a weapons manufacturing corporation with a focus on crygenic munitions and equipment.\n\nAll brand items and objects can be found at the dedicated vendor which can be crafted from the tier three inventors table.",
+  "author" : "Credo",
+  "description" : "Black Ice is a weapons manufacturing corporation with a focus on crygenic munitions and equipment.\n\nAll brand tiles and objects can be found at the dedicated vendor which can be crafted from the tier three inventors table. All weapons and armor can be purchased from the secondary merchant whom is available from the brand vendor.\nWhile dungeons aren't yet implimented in the mod, there are planets you can find which have a couple themed enemies you can fight as well as just being nice changes of scenery.\n\nHalo Reach © Microsoft Corporation. Black Ice was created under Microsoft's \"Game Content Usage Rules\" using assets from Halo Reach, and it is not endorsed by or affiliated with Microsoft.  \n\nImportant Rules:\nhttps://www.xbox.com/en-US/developers/rules",
   "friendlyName" : "Black Ice",
   "includes" : [],
   "link" : "steam://url/CommunityFilePage/2331991026",
@@ -8,6 +8,6 @@
   "priority" : -1,
   "requires" : [],
   "steamContentId" : "2331991026",
-  "tags" : "Crafting and Building|Weapons|Furniture and Objects|Vehicles and Mounts",
+  "tags" : "Crafting and Building|Planets and Environments|Weapons|User Interface|Furniture and Objects",
   "version" : "2"
 }

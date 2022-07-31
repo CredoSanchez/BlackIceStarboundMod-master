@@ -1,6 +1,6 @@
 {
   "itemName" : "csbi_rail",
-  "price" : 0,
+  "price" : 5,
   "category" : "rail",
   "rarity" : "Common",
   "inventoryIcon" : "csbi_rail.png",

@@ -80,6 +80,10 @@ function CSBIChargedShotAmmo:charge()
   animator.setAnimationState("charge", "charging")
   animator.setParticleEmitterActive("chargeparticles", true)
   
+  if cursor then
+    cursor.setCursorState("charge", true)
+  end
+  
   --While charging, but not yet ready, count down the charge timer
   while self.chargeTimer > 0 and self.fireMode == (self.activatingFireMode or self.abilitySlot) and not world.lineTileCollision(mcontroller.position(), self:firePosition()) do
     self.chargeTimer = math.max(0, self.chargeTimer - self.dt)
@@ -119,6 +123,9 @@ function CSBIChargedShotAmmo:fire()
   animator.stopAllSounds("chargeLoop")
   animator.setAnimationState("charge", "off")
   animator.setParticleEmitterActive("chargeparticles", false)
+  if cursor then
+    cursor.setCursorState("cooldown")
+  end
   
   self.chargeHasStarted = false
   
@@ -217,6 +224,10 @@ function CSBIChargedShotAmmo:reload()
   animator.setAnimationState("gun", "reload")
   animator.playSound("reloadLoop", -1)
   animator.burstParticleEmitter("reload")
+  
+  if cursor then
+    cursor.setCursorState("reload")
+  end
   
   local timer = 0
   util.wait(self.stances.reload.duration, function()
@@ -380,6 +391,10 @@ function CSBIChargedShotAmmo:uninit()
 end
 
 function CSBIChargedShotAmmo:reset()
+  if cursor then
+    cursor.setCursorState("idle")
+  end
+
   animator.setAnimationState("charge", "off")
   animator.setParticleEmitterActive("chargeparticles", false)
   animator.stopAllSounds("chargeLoop")

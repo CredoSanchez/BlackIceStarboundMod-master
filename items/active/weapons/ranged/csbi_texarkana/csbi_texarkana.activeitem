@@ -10,8 +10,30 @@
   "tooltipKind" : "csbi_texarkana",
   "fixedLevel" : true,
   "itemTags" : ["weapon","ranged"],
-  "cursor" : "/cursors/csbi_texarkanareticle.cursor",
+  //"cursor" : "/cursors/csbi_texarkanareticle.cursor",
   "twoHanded" : true,
+  
+  "cursorStates" : {
+    "idle" : {
+	  "cursor" : "/cursors/csbi_texarkanareticle/idle.cursor"
+	},
+	"charge" : {
+	  "cursor" : "/cursors/csbi_texarkanareticle/charge<frame>.cursor",
+	  "frames" : 4,
+	  "animationValue" : "primaryAbility.chargeTime"
+	},
+	"cooldown" : {
+	  "cursor" : "/cursors/csbi_texarkanareticle/cooldown<frame>.cursor",
+	  "frames" : 3,
+	  "animationValue" : "primaryAbility.cooldownTime",
+	  "transition" : "idle"
+	},
+	"reload" : {
+	  "cursor" : "/cursors/csbi_texarkanareticle/cooldown3.cursor",
+	  "animationValue" : "primaryAbility.stances.reload.duration",
+	  "transition" : "idle"
+	}
+  },
   
   "animation" : "csbi_texarkana.animation",
   "animationParts" : {

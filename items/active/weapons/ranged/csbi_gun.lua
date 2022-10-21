@@ -3,12 +3,16 @@ require "/scripts/vec2.lua"
 require "/items/active/weapons/weapon.lua"
 
 function init()
-  self.cursor = config.getParameter("cursor")
+  if config.getParameter("passiveStatusEffects") then
+    self.tagGroup = ("csbi_" .. config.getParameter("itemName") .. activeItem.hand())
+    status.addPersistentEffects(self.tagGroup, config.getParameter("passiveStatusEffects"))
+  end
   
-  if (self.cursor) then
-    activeItem.setCursor(self.cursor)
+  if config.getParameter("cursorStates") then
+	require("/items/active/weapons/csbi_cursoranimationsystem.lua")
+	cursor.init(config.getParameter("cursorStates"))
   else
-    activeItem.setCursor("/cursors/reticle0.cursor")
+    activeItem.setCursor(config.getParameter("cursor", "/cursors/pointer.cursor"))
   end
   
   animator.setGlobalTag("paletteSwaps", config.getParameter("paletteSwaps", ""))
@@ -31,10 +35,18 @@ end
 
 function update(dt, fireMode, shiftHeld)
   self.weapon:update(dt, fireMode, shiftHeld)
+  if cursor then cursor.update(dt) end
   
   world.debugPoint(vec2.add(mcontroller.position(), activeItem.handPosition(self.weapon.muzzleOffset)), "red")
 end
 
 function uninit()
+  if config.getParameter("passiveStatusEffects") then
+    status.clearPersistentEffects(self.tagGroup)
+    if config.getParameter("statusEffectsLingerOnUnequip") then
+	  status.addEphemeralEffects(config.getParameter("passiveStatusEffects"), activeItem.ownerEntityId())
+	end
+  end
+
   self.weapon:uninit()
 end

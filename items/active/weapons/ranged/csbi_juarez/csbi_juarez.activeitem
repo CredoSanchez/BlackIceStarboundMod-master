@@ -10,8 +10,30 @@
   "tooltipKind" : "csbi_juarez",
   "fixedLevel" : true,
   "itemTags" : ["weapon","ranged"],
-  "cursor" : "/cursors/csbi_juarezreticle.cursor",
+  //"cursor" : "/cursors/csbi_juarezreticle.cursor",
   "twoHanded" : true,
+  
+  "cursorStates" : {
+    "idle" : {
+	  "cursor" : "/cursors/csbi_juarezreticle/idle.cursor"
+	},
+	"charge" : {
+	  "cursor" : "/cursors/csbi_juarezreticle/charge<frame>.cursor",
+	  "frames" : 4,
+	  "animationValue" : "primaryAbility.chargeTime"
+	},
+	"cooldown" : {
+	  "cursor" : "/cursors/csbi_juarezreticle/cooldown<frame>.cursor",
+	  "frames" : 3,
+	  "animationValue" : "primaryAbility.cooldownTime",
+	  "transition" : "idle"
+	},
+	"reload" : {
+	  "cursor" : "/cursors/csbi_juarezreticle/cooldown3.cursor",
+	  "animationValue" : "primaryAbility.stances.reload.duration",
+	  "transition" : "idle"
+	}
+  },
   
   "animation" : "csbi_juarez.animation",
   "animationParts" : {

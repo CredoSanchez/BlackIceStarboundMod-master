@@ -10,8 +10,30 @@
   "tooltipKind" : "csbi_laredo",
   "fixedLevel" : true,
   "itemTags" : ["weapon","ranged"],
-  "cursor" : "/cursors/csbi_laredoreticle.cursor",
+  //"cursor" : "/cursors/csbi_laredoreticle.cursor",
   "twoHanded" : true,
+  
+  "cursorStates" : {
+    "idle" : {
+	  "cursor" : "/cursors/csbi_laredoreticle/idle.cursor"
+	},
+	"charge" : {
+	  "cursor" : "/cursors/csbi_laredoreticle/charge<frame>.cursor",
+	  "frames" : 4,
+	  "animationValue" : "primaryAbility.chargeTime"
+	},
+	"cooldown" : {
+	  "cursor" : "/cursors/csbi_laredoreticle/cooldown<frame>.cursor",
+	  "frames" : 3,
+	  "animationValue" : "primaryAbility.cooldownTime",
+	  "transition" : "idle"
+	},
+	"reload" : {
+	  "cursor" : "/cursors/csbi_laredoreticle/cooldown3.cursor",
+	  "animationValue" : "primaryAbility.stances.reload.duration",
+	  "transition" : "idle"
+	}
+  },
   
   "animation" : "csbi_laredo.animation",
   "animationParts" : {

@@ -1,0 +1,218 @@
+{
+  "verticalOrigin" : -10,
+
+  "layers" : [
+    {
+      "kind" : "divider/rock",
+      "offset" : [0, 200],
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.199
+    },
+    {
+      "kind" : "tile/rock",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "repeatY" : true,
+      "tileLimitTop" : 125,
+      "parallax" : 1.2
+    },
+    {
+      "kind" : "csbi_bridge",
+      "baseCount" : 1,
+      "offset" : [0, 55],
+      "parallax" : 1.199
+    },
+    {
+      "kind" : "csbi_train",
+      "baseCount" : 1,
+      "offset" : [0, -185],
+      "parallax" : 1.199,
+      "minSpeed" : 110000,
+      "maxSpeed" : 170000
+    },
+    {
+      "kind" : "csbi_sky",
+      "offset" : [0, 100],
+      "parallax" : [14, 1.8],
+      "nohueshift" : true
+	  },
+
+    {
+      "kind" : "csbi_shelf",
+      "baseCount" : 1,
+      "offset" : [0, 350],
+      "parallax" : 4
+    },
+    {
+      "kind" : "snowfront",
+      "baseCount" : 2,
+      "offset" : [0, 450],
+      "parallax" : 3
+    },
+    {
+      "kind" : "snowfront",
+      "baseCount" : 2,
+      "offset" : [0, 450],
+      "parallax" : 2.5
+    },
+    {
+      "kind" : "snowfront",
+      "baseCount" : 2,
+      "offset" : [0, 450],
+      "parallax" : 2
+    },
+    {
+      "kind" : "snowfront",
+      "offset" : [0, 520],
+      "parallax" : 1.5
+    },
+    {
+      "kind" : "csbi_mountainsgreen",
+      "baseCount" : 1,
+      "offset" : [0, 50],
+      "parallax" : [8.1, 4.1]
+    },
+    {
+      "kind" : "csbi_mountainsbackalt",
+      "baseCount" : 1,
+      "offset" : [0, 150],
+      "parallax" : [8.2, 4.2]
+    },
+    {
+      "kind" : "csbi_mountainsback",
+      "baseCount" : 1,
+      "offset" : [0, 175],
+      "parallax" : [8.5, 4.5]
+    },
+
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -500],
+    "parallax" : [5.6, 1.85],
+    "minSpeed" : 14000,
+    "maxSpeed" : 15000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -485],
+    "parallax" : [5.6, 1.85],
+    "minSpeed" : 14000,
+    "maxSpeed" : 15000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -475],
+    "parallax" : [6.6, 1.9],
+    "minSpeed" : 14000,
+    "maxSpeed" : 15000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -460],
+    "parallax" : [6.6, 1.9],
+    "minSpeed" : 14000,
+    "maxSpeed" : 15000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -450],
+    "parallax" : [7.6, 1.95],
+    "minSpeed" : 12000,
+    "maxSpeed" : 13000
+  },  
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -435],
+    "parallax" : [7.6, 1.95],
+    "minSpeed" : 12000,
+    "maxSpeed" : 13000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -425],
+    "parallax" : [8.6, 2],
+    "minSpeed" : 10000,
+    "maxSpeed" : 11000
+  },  
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -410],
+    "parallax" : [8.6, 2],
+    "minSpeed" : 10000,
+    "maxSpeed" : 11000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -400],
+    "parallax" : [9.6, 2.05],
+    "minSpeed" : 8000,
+    "maxSpeed" : 9000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -385],
+    "parallax" : [9.6, 2.05],
+    "minSpeed" : 8000,
+    "maxSpeed" : 9000
+  },  
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -375],
+    "parallax" : [10.6, 2.1],
+    "minSpeed" : 6000,
+    "maxSpeed" : 7000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+      "offset" : [0, -360],
+      "parallax" : [10.6, 2.1],
+    "minSpeed" : 6000,
+    "maxSpeed" : 7000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -350],
+    "parallax" : [11.6, 2.15],
+    "minSpeed" : 4000,
+    "maxSpeed" : 5000
+  },  
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, -335],
+    "parallax" : [11.6, 2.15],
+    "minSpeed" : 4000,
+    "maxSpeed" : 5000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, 0],
+    "parallax" : [12.6, 2.2],
+    "minSpeed" : 2000,
+    "maxSpeed" : 3000
+  },
+  {
+    "kind" : "csbi_clouds",
+    "baseCount" : 1,
+    "offset" : [0, 75],
+    "parallax" : [12.6, 2.2],
+    "minSpeed" : 2000,
+    "maxSpeed" : 3000
+  }
+]
+}

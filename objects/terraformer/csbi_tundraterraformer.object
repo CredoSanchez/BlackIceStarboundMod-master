@@ -54,6 +54,6 @@
 
   "planetTypeChangeThreshold" : 0.5,
 
-  "terraformBiome" : "csbi_tundra",
+  "terraformBiome" : "csbi_triumvirate",
   "terraformPlanetType" : "csbi_blacktundra"
 }

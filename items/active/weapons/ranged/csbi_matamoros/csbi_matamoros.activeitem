@@ -1,0 +1,204 @@
+{
+  "itemName" : "csbi_matamoros",
+  "price" : 1500,
+  "inventoryIcon" : "csbi_matamorosicon.png",
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "^orange;An experimental railgun concept.",
+  "shortdescription" : "^orange;Matamoros^reset;",
+  "level" : 6,
+  "tooltipKind" : "csbi_matamoros",
+  "fixedLevel" : true,
+  "itemTags" : ["weapon","ranged"],
+  //"cursor" : "/cursors/csbi_texarkanareticle.cursor",
+  "twoHanded" : true,
+  
+  "cursorStates" : {
+    "idle" : {
+	  "cursor" : "/cursors/csbi_texarkanareticle/idle.cursor"
+	},
+	"charge" : {
+	  "cursor" : "/cursors/csbi_texarkanareticle/charge<frame>.cursor",
+	  "frames" : 4,
+	  "animationValue" : "primaryAbility.chargeTime"
+	},
+	"cooldown" : {
+	  "cursor" : "/cursors/csbi_texarkanareticle/cooldown<frame>.cursor",
+	  "frames" : 3,
+	  "animationValue" : "primaryAbility.cooldownTime",
+	  "transition" : "idle"
+	},
+	"reload" : {
+	  "cursor" : "/cursors/csbi_texarkanareticle/cooldown3.cursor",
+	  "animationValue" : "primaryAbility.stances.reload.duration",
+	  "transition" : "idle"
+	}
+  },
+  
+  "animation" : "csbi_matamoros.animation",
+  "animationParts" : {
+    "gun" : "csbi_matamoros.png",
+    "lights" : "csbi_matamoroslights.png",
+    "charge" : "csbi_matamoroscharge.png"
+  },
+  "animationCustom" : {
+	"animatedParts" : {
+      "parts" : {
+        "gun" : {
+		  "properties" : {
+			//Same as BaseOffset
+		    "offset" : [1.3, 0]
+		  }
+		},
+		"lights" : {
+		  "properties" : {
+			//Same as BaseOffset
+		    "offset" : [1.3, 0]
+		  }
+		},
+		"charge" : {
+		  "properties" : {
+			//Same as BaseOffset
+		    "offset" : [1.3, 0]
+		  }
+		}
+      }
+    },
+    "particleEmitters" : {
+      "reload" : {
+        "transformationGroups" : ["weapon"],
+		"offsetRegion" : [1.125, -0.25, 1.125, -0.25],
+        "particles" : [
+          { "particle" : "csbi_texmag" }
+        ]
+      }
+    },
+    "sounds" : {
+      "fire": {
+        "volume": 2,
+        "pool": ["/sfx/gun/railgun_fire/railgun_firesmall.ogg"]
+        },
+	  "chargeLoop" : [ "/sfx/gun/railgun_charge/railgun_charge.ogg" ],
+	  "discharge" : {
+      "volume": 0.25,
+      "pool" : [ "/sfx/gun/magnorbs_fire3.ogg" ]
+        },
+	  "reloadLoop" : [ "/sfx/gun/railgun_reload/railgun_reloadsmall.ogg" ],
+	  "reload" : {
+      "volume": 3,
+      "pool": [ "/sfx/gun/railgun_reload/railgun_reload.ogg" ]
+        }
+      }
+  },
+
+  "baseOffset" : [1.3, 0],
+  "muzzleOffset" : [0, -0.37],
+
+  "scripts" : ["/items/active/weapons/ranged/csbi_gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/csbi-chargedshot-ammo.lua"],
+    "class" : "CSBIChargedShotAmmo",
+
+    "chargeTime" : 0.25,
+    "baseDamage" : 7.0,
+    "inaccuracy" : 0,
+	
+	"cooldownTime" : 0.2,
+	
+	"readyTime" : 0.2, //Time between finishing the reload animation and being able to fire the first shot again
+	"maxAmmo" : 35,
+
+    "projectileType" : "csbi_icebullet",
+	"projectileCount" : 1,
+	"projectileParameters" : {
+      "knockback" : 10
+    },
+	
+	"singleFireAnimation" : true, //Makes the weapon fire a non-looping active animation after every shot
+	"casingEjectParticles" : true, //Makes the weapon burst a "casingEject" particle emitter after every shot
+	
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, -0.7],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "charge" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, -0.7],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+		    "weaponOffset" : [-0.06, -0.71],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+		    "weaponOffset" : [-0.06, -0.71],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "discharge" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, -0.7],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "reload" : {
+        "duration" : 2,
+        "armRotation" : -25,
+        "weaponRotation" : 60,
+        "weaponOffset" : [-0.625, 0.625],
+        "twoHanded" : true,
+
+        "aimAngle" : 0,
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+		"frontArmFrameSequence" : [
+		  [0.0, "walk.2"],
+		  [0.8, "run.3"],
+		  [1.2, "rotation"]
+		],
+        "backArmFrame" : "rotation"
+      }
+	}
+  },
+
+  "builder" : "/items/buildscripts/csbi-buildchargedammoweapon.lua"
+}

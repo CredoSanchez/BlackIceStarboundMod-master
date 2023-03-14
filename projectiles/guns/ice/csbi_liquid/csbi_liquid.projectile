@@ -21,7 +21,7 @@
       "angleAdjust" : -5
     }
   ],
-  "power" : 0.0,
+  "power" : 1.0,
   "speed" : 25,
   "damageKind" : "tintrio"
 

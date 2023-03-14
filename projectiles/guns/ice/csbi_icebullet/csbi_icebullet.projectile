@@ -1,17 +1,24 @@
 {
   "projectileName" : "csbi_icebullet",
-  "physics" : "laser",
+  "physics" : "arrownosticky",
   "image" : "csbi_icebullet.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "lightColor" : [24, 212, 255],
   "actionOnReap" : [
-	{
+	  {
       "action" : "projectile",
       "type" : "csbi_icecloud",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 1,
       "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "csbi_icebulletsticking",
+      "inheritDamageFactor" : 1.0,
+      "inheritSpeedFactor" : 0.6,
+      "angleAdjust" : 0
     }
   ],
   "periodicActions" : [
@@ -32,9 +39,9 @@
       }
     }
   ],
-  "power" : 25.0,
+  "power" : 10.0,
   "speed" : 180,
   "supportsProcessing" : true,
   "fullbright" : true,
-  "damageKind" : "default"
+  "damageKind" : "tintrio"
 }
